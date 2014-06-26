@@ -4,7 +4,7 @@
 
 On 24 Nov 2012, user "pudquick" [released the initial version of Shellista][1] on the Pythonista forums, to help Pythonista users get around the fact that there is no shell available on iOS devices.  Since the original post, many in the Pythonista community have contributed to improve the functionality of Shellista.  From pudquick's initial post:
 
-Commands and features:
+### Commands and features:
 
 * `cd` - change directory
 * `pwd` - print current working directory
@@ -27,7 +27,7 @@ Commands and features:
 * Supports backslash escaping (for individual special characters)
 * Supports double quotes (for preserving spaces, but allowing special sequences
 
-Examples of advanced usage:
+### Examples of advanced usage:
 * `ls *.py */*.py` (lists all .py files in current directory and at the top level of any folders in current directory)
 * `cp ~/*.py backup` (copies all python scripts in the root scripts directory to a folder named 'backup')
 * `rm test[1-3]?.txt` (removes files test1a.txt, test2a.txt, test2b.txt, test2c.txt, test3-.txt, etc.)
@@ -38,7 +38,7 @@ For the interested programmer: This script uses a pure python re-implementation 
 
 ---
 
-New Additions:
+## New Additions:
 
  - Integrate minimal pipista functionality
   - pdown - PyPi download
